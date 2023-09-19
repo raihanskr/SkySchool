@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.VerifyLoginFunction">
+        <methods>
+          <include name="Given_I_am_in_Daraz_site"/>
+          <include name="then_I_can_see_the_login_page"/>
+          <include name="when_I_click_on_login_button"/>
+          <include name="then_I_can_see_my_home_page"/>
+          <include name="and_I_enter_my_login_id_and_password"/>
+          <include name="and_I_click_on_login_button"/>
+        </methods>
+      </class> <!-- tests.VerifyLoginFunction -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
